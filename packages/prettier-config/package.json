@@ -1,0 +1,20 @@
+{
+  "name": "@dropshare/prettier-config",
+  "version": "0.1.0",
+  "description": "Shared Prettier configuration for Dropshare",
+  "private": true,
+  "files": [
+    "index.json",
+    "README.md"
+  ],
+  "exports": {
+    ".": "./index.json"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
+
